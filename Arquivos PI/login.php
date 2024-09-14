@@ -15,9 +15,9 @@ if(isset($_SESSION['mensagem_erro'])){
     <title>Document</title>
 </head>
 <body>
-<form action="processa_login.php" method="post">
+<form action="processa_login.php" method="post"> <!--action manda o que for feito neste arquivo para outro, nos caso vai para o arquivo processa_login.php pelo metodo post-->
     <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome"><br>
+    <input type="text" id="nome" name="nome" required><br>
     <label for="senha">Senha:</label>
     <input type="password" id="senha" name="senha" required><br>
     <input type="submit" value="Enviar">

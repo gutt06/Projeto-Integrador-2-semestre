@@ -15,10 +15,14 @@ if(!isset($_SESSION['admin_logado'])){
 </head>
 <body>
     <h2>Bem vindo Administrador!</h2>
+    <a href="cadastrar_administrador.php">
+    <button>Cadastrar Administrador</button>
+    </a>
+    
     <a href="cadastrar_produto.php">
     <button>Cadastrar Produto</button>
     </a>
-    
+
     <a href="listar_produtos.php">
     <button>Listar Produtos</button>
     </a>
