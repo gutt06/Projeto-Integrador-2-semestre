@@ -1,5 +1,5 @@
 <?php 
-$host = '144.22.157.228';
+$host = 'www.thyagoquintas.com.br';
 $db = 'Bravo';
 $user = 'bravo';
 $pass = 'bravo';
