@@ -72,7 +72,7 @@ try{
                 <td><?php echo $produto['PRODUTO_QTD'];?></td>
                 <td><img src="<?php echo $produto['IMAGEM_URL'];?>" alt="<?php echo $produto['PRODUTO_NOME'];?>" width="50"></td>
                 <td>
-                    <a href="editar_produto.php?id=<?php echo $produto['PRODUTO_ID'];?>" class="action-btn">Editar</a>
+                    <a href="editar_produto.php?id=<?php echo $produto['PRODUTO_ID'];?>" class="action-btn">Editar</a> <!--Pega o id do produto e leva para a pagina de editar-->
                     <a href="excluir_produto.php?id=<?php echo $produto['PRODUTO_ID'];?>" class="action-btn delete btn">Excluir</a>
                 </td>
             </tr>
