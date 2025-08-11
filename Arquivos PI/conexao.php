@@ -1,9 +1,9 @@
 <?php 
-$host = 'www.thyagoquintas.com.br';
-$db = 'Bravo';
-$user = 'bravo';
-$pass = 'bravo';
-$charset = 'utf8mb4';
+$host = '';
+$db = '';
+$user = '';
+$pass = '';
+$charset = '';
 
 $dsn = "mysql:host=$host;dbname=$db;$charset";
 $options = [ 
